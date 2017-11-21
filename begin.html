@@ -1,0 +1,79 @@
+	<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" style="text/css" href="css/estilo.css"/>
+<title>Horda</title>
+<script src="./js/jquery.min.js"></script>
+<script>
+$(function(){
+	
+$( ".center" ).click(function() {
+  $( ".center" ).animate({
+    opacity: 0.25,
+    left: "+=50",
+    height: "toggle"
+  }, 700, function(){
+  
+    
+	
+  });
+  $(".block").css({
+		"display":"block"
+	
+	})
+});
+
+
+});
+</script>
+<body>
+
+  <div class="center">
+		
+		<div class="logo">
+				<img class="image" src="./css/photo.jpg"/>
+		</div>
+    <div class="text">
+      <h1><span>Horda</span> Nerd </h1>
+    </div>
+	<div class="click">
+		<p1>Click aqui</p1>
+	</div>
+
+  </div>
+	<div class="block">
+		<div class="welcome">
+		<h1>Bem vindo!</h1>
+		<p1>Escolha para onde você deve ir:</p1>
+		</div>
+				<ul class="ch-grid">
+			<li>
+				<div class="ch-item ch-img-1">
+					<div class="ch-info">
+						<a href="./Home/Site.html"><h3>Notícias</h3></a>
+
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-2">
+					<div class="ch-info">
+						<h3>Comunidade da Horda</h3>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-3">
+					<div class="ch-info">
+						<a href="./Store/Site.html"><h3>Loja</h3></a>
+						
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>
